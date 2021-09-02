@@ -8,7 +8,7 @@ __groups = {
     2:Group("   " , matches = [Match(wm_class=["alacritty"])]),
     3:Group("   " , matches = [Match(wm_class=["code"])]),
     4:Group("   " , matches = [Match(wm_class=["Thunar"])]),
-    5:Group(" 阮 " , matches = [Match(wm_class=["spotify"])]),
+    5:Group("   " , matches = [Match(wm_class=["spotify"])]),
     6:Group("   "),
 }
 

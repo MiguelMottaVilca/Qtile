@@ -29,7 +29,7 @@ focus_on_window_activation = 'urgent'
 wmname = 'LG3D'
 
 autostart = [
-    "picom &"
+    "picom &",
     "setxkbmap latam &",
     "feh --bg-fill /home/miguel/Pictures/wallpaper.jpg &",
     "nm-applet &",
