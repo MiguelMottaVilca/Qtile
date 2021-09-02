@@ -1,4 +1,4 @@
-#from libqtile import hook
+from libqtile import hook
 
 from settings.keys import mod, keys
 from settings.groups import groups
@@ -13,9 +13,9 @@ import subprocess
 import os
 
 
-#@hook.subscribe.startup_once
-# def autostart():
-#    subprocess.call([path.join(qtile_path, 'autostart.sh')])
+@hook.subscribe.startup_once
+def autostart():
+    subprocess.call([path.join(qtile_path, 'autostart.sh')])
 
 
 main = None
@@ -28,7 +28,7 @@ auto_fullscreen = True
 focus_on_window_activation = 'urgent'
 wmname = 'LG3D'
 
-autostart = [
+'''autostart = [
     "picom &",
     "setxkbmap latam &",
     "feh --bg-fill /home/miguel/Pictures/wallpaper.jpg &",
@@ -40,3 +40,4 @@ autostart = [
 
 for x in autostart:
     os.system(x)
+'''

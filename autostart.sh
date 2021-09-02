@@ -1,8 +1,9 @@
 #!/bin/sh
 
-#keyboard spanish
-#setxkbmap latam &
-# systray battery icon
-#cbatticon -u 5 &
-# systray volume
-#volumeicon &
+picom &
+setxkbmap latam &
+feh --bg-fill /home/miguel/Pictures/wallpaper.jpg &
+nm-applet &
+volumeicon &
+cbatticon &
+udiskie -t &
